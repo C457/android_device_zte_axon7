@@ -373,6 +373,12 @@ service start_hci_filter /vendor/bin/wcnss_filter
     group bluetooth diag system wakelock
     disabled
 
+service atfwd /vendor/bin/ATFWD-daemon
+    class late_start
+    user system
+    group system radio
+    writepid /dev/cpuset/system-background/tasks
+
 service netmgrd /vendor/bin/netmgrd
     class main
     user root

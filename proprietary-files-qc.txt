@@ -386,6 +386,7 @@ etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/uimlpalibrary.jar|468e695d7029af7b39d4502b4a3a1ec9e0a610ba
 lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|8beb20d588dbe318a4013763f73b09a0d637b827
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|1d399b288e849de7f6d84db67b9da2a77d39ec2c
+vendor/bin/ATFWD-daemon|ed393ba98ea7df5650e72c751e6811e49ea3eae6
 vendor/bin/ipacm-diag|8f5bbcc906b01d0e84ed026b724c8ba5922690a8
 vendor/bin/netmgrd|f5ce9d1f5570fe17f51256585beccb77ad1375c8
 vendor/bin/qti|57132bc93bdbc1974b5033512bd6a5b417bc5550
