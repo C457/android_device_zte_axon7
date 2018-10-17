@@ -158,15 +158,15 @@ vendor/lib64/hw/gatekeeper.msm8996.so
 vendor/lib/hw/gatekeeper.msm8996.so
 
 # GPS - from bardock-pro - OPM1.171019.019
-etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
-etc/permissions/com.qualcomm.location.xml|e837966b6a1a63430ac7ff648e84b0312cd3a46b
-etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
-framework/com.qti.location.sdk.jar|f2e9f1d49201e1bad83008445fdafe9541e9b2bd
-framework/izat.xt.srv.jar|e10f1baf6ae0f70c4a529e5711559cebbc3644c9
-lib64/liblocationservice_jni.so|a97a565ec71873df0afc600f1c0f422975b760e5
-lib64/libxt_native.so|2406b26e1d94fe790db0ef43f98956233130fb86
-lib64/vendor.qti.gnss@1.0.so|88ab96630e0ff06a2456feb8abf2a498f510cc48
--priv-app/com.qualcomm.location/com.qualcomm.location.apk|c047b73a70090e49beb8378a2d1cb80a39eba5df
+etc/permissions/com.qti.location.sdk.xml:vendor/etc/permissions/com.qti.location.sdk.xml|0b0fa5ed38c2136cfc4d09f0fbed2e912919f5d4
+etc/permissions/com.qualcomm.location.xml:vendor/etc/permissions/com.qualcomm.location.xml|e837966b6a1a63430ac7ff648e84b0312cd3a46b
+etc/permissions/izat.xt.srv.xml:vendor/etc/permissions/izat.xt.srv.xml|01f64eaadadddaedca2414e09f16129256ac298e
+framework/com.qti.location.sdk.jar:vendor/framework/com.qti.location.sdk.jar|f2e9f1d49201e1bad83008445fdafe9541e9b2bd
+framework/izat.xt.srv.jar:vendor/framework/izat.xt.srv.jar|e10f1baf6ae0f70c4a529e5711559cebbc3644c9
+lib64/liblocationservice_jni.so:vendor/lib64/liblocationservice_jni.so|a97a565ec71873df0afc600f1c0f422975b760e5
+lib64/libxt_native.so:vendor/lib64/libxt_native.so|2406b26e1d94fe790db0ef43f98956233130fb86
+lib64/vendor.qti.gnss@1.0.so:vendor/lib64/vendor.qti.gnss@1.0.so|88ab96630e0ff06a2456feb8abf2a498f510cc48
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk:vendor/priv-app/com.qualcomm.location/com.qualcomm.location.apk|c047b73a70090e49beb8378a2d1cb80a39eba5df
 vendor/bin/hw/vendor.qti.gnss@1.0-service|bdf23fe2af07c2afb74721023431446104fd828d
 vendor/bin/loc_launcher|133d41049a88784e7fe14b8c93a284b09054b2de
 vendor/bin/lowi-server|1734353992c7caf1dfb87671b4480335d7a33dce
