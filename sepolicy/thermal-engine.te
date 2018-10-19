@@ -1,0 +1,2 @@
+# IThermal Thermal HAL
+hal_server_domain(thermal-engine, hal_thermal)

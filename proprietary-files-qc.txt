@@ -522,11 +522,11 @@ vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/sensors.ssc.so
 
-# Thermal
-vendor/bin/thermal-engine
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
--vendor/lib/libthermalclient.so
+# Thermal - from marlin - OPM4.171019.021.P1
+vendor/bin/thermal-engine|60762281388b2b0b0aa88dcaa50f10cdab9ae87d
+-vendor/lib64/libthermalclient.so|32f1dd4fd2e257fa530262a71ce903282179896f
+vendor/lib64/libthermalioctl.so|58cdd3389a470a70c383ef52a0dbc52e8331f6ff
+-vendor/lib/libthermalclient.so|e99b99eb38edc945f0b711a281ca69d86292642b
 
 # Time services
 -vendor/app/TimeService/TimeService.apk|5055619766db32fe499cda86b892c9f3081219c5
