@@ -389,8 +389,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8996-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    $(LOCAL_PATH)/configs/thermal-engine-8996-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-vr.conf
+    $(LOCAL_PATH)/configs/thermal-engine-axon7.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-axon7-vr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-vr.conf
 
 # VNDK
 PRODUCT_PACKAGES += \
