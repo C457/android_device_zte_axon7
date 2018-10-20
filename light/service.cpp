@@ -46,6 +46,7 @@ const static std::string kRedRampStepMsPath = "/sys/class/leds/red/ramp_step_ms"
 const static std::string kGreenRampStepMsPath = "/sys/class/leds/green/ramp_step_ms";
 const static std::string kRedBlinkPath = "/sys/class/leds/red/blink";
 const static std::string kGreenBlinkPath = "/sys/class/leds/green/blink";
+const static std::string kLowPersistencePath = "/sys/class/graphics/fb0/msm_fb_persist_mode";
 
 int main() {
     uint32_t lcdMaxBrightness = 255;
@@ -164,6 +165,13 @@ int main() {
         return -errno;
     }
 
+    std::ofstream lowPersistence(kLowPersistencePath);
+    if (!lowPersistence) {
+        LOG(ERROR) << "Failed to open " << kLowPersistencePath << ", error=" << errno
+                   << " (" << strerror(errno) << ")";
+        return -errno;
+    }
+
     android::sp<ILight> service = new Light(
             {std::move(lcdBacklight), lcdMaxBrightness},
             std::move(redLed), std::move(greenLed),
@@ -172,7 +180,8 @@ int main() {
             std::move(redPauseLo), std::move(greenPauseLo),
             std::move(redPauseHi), std::move(greenPauseHi),
             std::move(redRampStepMs), std::move(greenRampStepMs),
-            std::move(redBlink), std::move(greenBlink));
+            std::move(redBlink), std::move(greenBlink),
+            std::move(lowPersistence));
 
     configureRpcThreadpool(1, true);
 

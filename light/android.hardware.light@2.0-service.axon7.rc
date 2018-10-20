@@ -1,3 +1,6 @@
+on early-boot
+    chown system system /sys/class/graphics/fb0/msm_fb_persist_mode
+
 on init
     # RG lights
     chown system system /sys/class/leds/red/pause_lo

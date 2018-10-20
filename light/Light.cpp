@@ -65,7 +65,8 @@ Light::Light(std::pair<std::ofstream, uint32_t>&& lcd_backlight,
              std::ofstream&& red_pause_lo, std::ofstream&& green_pause_lo,
              std::ofstream&& red_pause_hi, std::ofstream&& green_pause_hi,
              std::ofstream&& red_ramp_step_ms, std::ofstream&& green_ramp_step_ms,
-             std::ofstream&& red_blink, std::ofstream&& green_blink)
+             std::ofstream&& red_blink, std::ofstream&& green_blink,
+             std::ofstream&& low_persistence)
     : mLcdBacklight(std::move(lcd_backlight)),
       mRedLed(std::move(red_led)),
       mGreenLed(std::move(green_led)),
@@ -80,7 +81,9 @@ Light::Light(std::pair<std::ofstream, uint32_t>&& lcd_backlight,
       mRedRampStepMs(std::move(red_ramp_step_ms)),
       mGreenRampStepMs(std::move(green_ramp_step_ms)),
       mRedBlink(std::move(red_blink)),
-      mGreenBlink(std::move(green_blink)) {
+      mGreenBlink(std::move(green_blink)),
+      mLowPersistence(std::move(low_persistence)),
+      mLowPersistenceEnabled(false) {
     auto attnFn(std::bind(&Light::setAttentionLight, this, std::placeholders::_1));
     auto backlightFn(std::bind(&Light::setLcdBacklight, this, std::placeholders::_1));
     auto batteryFn(std::bind(&Light::setBatteryLight, this, std::placeholders::_1));
@@ -125,6 +128,7 @@ void Light::setAttentionLight(const LightState& state) {
 void Light::setLcdBacklight(const LightState& state) {
     std::lock_guard<std::mutex> lock(mLock);
 
+    bool lpEnabled = state.brightnessMode == Brightness::LOW_PERSISTENCE;
     uint32_t brightness = rgbToBrightness(state);
 
     // If max panel brightness is not the default (255),
@@ -133,6 +137,12 @@ void Light::setLcdBacklight(const LightState& state) {
         int old_brightness = brightness;
         brightness = brightness * mLcdBacklight.second / DEFAULT_MAX_BRIGHTNESS;
         LOG(VERBOSE) << "scaling brightness " << old_brightness << " => " << brightness;
+    }
+
+    if (lpEnabled != mLowPersistenceEnabled) {
+        mLowPersistence << (lpEnabled ? "1" : "0") << std::endl;
+        mLowPersistenceEnabled = lpEnabled;
+        LOG(VERBOSE) << "low_persistence mode = " << lpEnabled;
     }
 
     mLcdBacklight.first << brightness << std::endl;

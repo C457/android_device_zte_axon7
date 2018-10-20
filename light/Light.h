@@ -38,7 +38,8 @@ struct Light : public ILight {
           std::ofstream&& red_pause_lo, std::ofstream&& green_pause_lo,
           std::ofstream&& red_pause_hi, std::ofstream&& green_pause_hi,
           std::ofstream&& red_ramp_step_ms, std::ofstream&& green_ramp_step_ms,
-          std::ofstream&& red_blink, std::ofstream&& green_blink);
+          std::ofstream&& red_blink, std::ofstream&& green_blink,
+          std::ofstream&& low_persistence);
 
     // Methods from ::android::hardware::light::V2_0::ILight follow.
     Return<Status> setLight(Type type, const LightState& state) override;
@@ -67,6 +68,9 @@ struct Light : public ILight {
     std::ofstream mGreenRampStepMs;
     std::ofstream mRedBlink;
     std::ofstream mGreenBlink;
+
+    std::ofstream mLowPersistence;
+    bool mLowPersistenceEnabled;
 
     LightState mAttentionState;
     LightState mBatteryState;
