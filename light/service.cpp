@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.zte_8996"
+#define LOG_TAG "android.hardware.light@2.0-service.axon7"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
