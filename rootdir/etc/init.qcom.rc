@@ -270,7 +270,7 @@ on boot
     # Wake gesture and KeyDisabler
     chown system radio /proc/touchscreen/wake_gesture
     chmod 0660 /proc/touchscreen/wake_gesture
-    chown system system /sys/devices/soc/75ba000.i2c/i2c-12/12-0020/input/input2/0dbutton
+    chown system system /sys/devices/soc/75ba000.i2c/i2c-12/12-0020/input/input1/0dbutton
 
     # NDT weight port
     chown system system /dev/ndt_i2c_node
