@@ -71,12 +71,12 @@ lib/libaptXHD_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e01c
 vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
-# CNE - from fujisan - OPM1.171019.019
+# CNE - from fujisan - OPM1.171019.026
 etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
-framework/cneapiclient.jar|927aaee2dccdc7664b54cb3ef9d27a05bf7ae29c
+framework/cneapiclient.jar|1f21d2c86b1899b5aaff96ec6ce41de0ed38ebf0
 framework/com.quicinc.cne.api-V1.0-java.jar|f11667bed94166ad2a050c1e1b542d06699ab3bc
 framework/com.quicinc.cne.jar|438853c8698ba3dfa5dfa35c12b9b27da3a64fd3
 lib64/vendor.qti.hardware.data.latency@1.0.so|833e57b1906b7e372f1d1119b97b644a12913406
@@ -127,7 +127,7 @@ vendor/lib/libwqe.so|805bfc058fcadc7cda1ac6a74f4fd9adc93c1461
 vendor/lib/libxml.so|13811a4889843d95599f38b88d3d89db6e06c4fe
 vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so|00788fb8d499ee6aeb16343dde44a3b5fc5fa02b
 
-# DPM - from fujisan - OPM1.171019.019
+# DPM - from fujisan - OPM1.171019.026
 vendor/bin/dpmQmiMgr|2bc6d12736475942b5e96398bcdeb49d8b03f6e1
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so|dbc12af2373115bb2b6f0c209c27b516065fa26d
 vendor/lib64/libdpmqmihal.so|793208b1182499e44aa215633da4fef04d7c888f
@@ -328,7 +328,7 @@ vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# QMI - from fujisan - OPM1.171019.019
+# QMI - from fujisan - OPM1.171019.026
 etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
 lib/libqmi_cci_system.so:vendor/lib/libqmi_cci_system.so|40ac2bb5902e79d5ac2ed16dcc9c6f30b16c4140
@@ -367,7 +367,7 @@ vendor/lib/libqmiservices.so|a726fbed75d863d67206c8e027ad391140f4a488
 vendor/lib/libqmi.so|1d1dbf7dba981e620ea9d4cdc2336040ca085fca
 vendor/lib/libsmemlog.so|4e90311f07677be47af2c2df086c705fd9399ff9
 
-# RIL - from fujisan - OPM1.171019.019
+# RIL - from fujisan - OPM1.171019.026
 # qti-telephony-common.jar - from tissot - OPR1.170623.026
 -app/QtiTelephonyService/QtiTelephonyService.apk|c01d25e34c2dcf993d786f107a17a6323a337baa
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
@@ -377,7 +377,7 @@ etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/qti-telephony-common.jar|2eba987ae297a892e895ec1e9a302b41dbe0232e
 -framework/QtiTelephonyServicelibrary.jar|5741f312cb37d8d05f8f217da7a57937880344f4
 -framework/uimlpalibrary.jar|468e695d7029af7b39d4502b4a3a1ec9e0a610ba
-lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|8beb20d588dbe318a4013763f73b09a0d637b827
+lib64/libvendorcfg.so:vendor/lib64/libvendorcfg.so|db29f98af23f824fbce14bccba61c0aee00ac450
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|1d399b288e849de7f6d84db67b9da2a77d39ec2c
 vendor/bin/ATFWD-daemon|ed393ba98ea7df5650e72c751e6811e49ea3eae6
 vendor/bin/ipacm-diag|8f5bbcc906b01d0e84ed026b724c8ba5922690a8
@@ -390,26 +390,26 @@ vendor/etc/data/netmgr_config.xml|23db3d4430cec4780123429ccf720923480333e0
 vendor/lib64/libconfigdb.so|395fe18787a4e1eb07f6f7962f0e400f3dc17576
 vendor/lib64/liblqe.so|14a8623f865c47a6d78afd360f8f16684f1dbb9f
 vendor/lib64/libmdmdetect.so|4d53c9aaf01f31605575f040ba95e9a32af10cc5
-vendor/lib64/libmodemapi_vendor.so|3c77a7bcc46e71139b2235510c6e311b32516544
+vendor/lib64/libmodemapi_vendor.so|d09123846c1d448439868f568417e61c8e8db1f3
 vendor/lib64/libnetmgr.so|4fc2687e229a63277f856baa8c6add0e01668222
 vendor/lib64/libqcmaputils.so|0836b52e5d0fc89ea819bb7d600c3a53ef059a51
 vendor/lib64/libril-qc-ltedirectdisc.so|1ade6b943a2af4abecd42dc44eeb482fec5cd746
-vendor/lib64/libril-qc-qmi-1.so|22cd70238c8fedd1cb333e365d8dd2c712ffd3f0
+vendor/lib64/libril-qc-qmi-1.so|f301c2ace021a29440e058b574291279b767051b
 vendor/lib64/libril-qc-radioconfig.so|7fe263c657b66a34248c4f4b2dffcd98e9c38951
 vendor/lib64/libril-qcril-hook-oem.so|bf79b18d19393b94c9c3040f06bd988858716b56
 vendor/lib64/librilqmiservices.so|b1329745be4f2d1882dd438e60e3362aea092f1e
 vendor/lib64/libsettings.so|af0fd9a18a9a3c92df902dd2d4c538d92aa37319
 vendor/lib64/libsystem_health_mon.so|2dfd0c9770628f762e9bdaaa7e830ec91d1b164c
-vendor/lib64/libvendorutils_vendor.so|a037767b0ddaaa3cc8f3382f0d62d2f49ce4904d
-vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so|6dc71a9a512baedd3341c89f38b0edbe059e8a76
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so|4becacb751ffdbf44475ab1e16e18111bd46fc96
-vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so|08ddeeae1aff19cd9fe095c61eec0263de69f69b
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so|197be289074d361850a51415c9fab9985c076222
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so|16a6c0ffdee5b6b5f7de469eda17bcaf120cdfce
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so|5ca087fe74c1895bdc878ae13f93f8a593fa6eea
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so|be54d4ab83dad019f77d5c78dd504c7a1e36df7b
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|7cad4a7e5dc9ace38b876846eff15d0fbbe65ed9
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|368ad36d4bb5ee9087e71f251ae70678dff9d698
+vendor/lib64/libvendorutils_vendor.so|5c5ff4d7bcd01f03884abac590c6ed8472be46be
+vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so|233f48c0071edd471e589c17cc5d1edda1b0c01c
+vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so|e245917d5a122c5b4ad53439141255e301096b64
+vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so|afd5280cb1b30221d76c04aa9c315b3a9b480f03
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so|4b609e070877c1fdee76ff42820ad0a40fdd7909
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so|ecbcfa2d2ed5ec167d45010fa8ff52c82851c44c
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so|f42decdb12552646c0994f4f5cc2eee269df5f21
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so|a765cfeac1fc4fe5034fb356b25d0a086e0ce226
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|40cdf82c31a8316dae54b84dfb04590bf3850eae
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|7205dd8c89bf959c4c0856d33760f83f8e7f4c09
 vendor/lib/libmdmdetect.so|5fb436b7f417d91bc58664db436f0b1b16a56558
 vendor/lib/libqcmaputils.so|0bfa27799613278264afb2e9a4116b3ebaa0c604
 vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so|39f3c9c319f2640d3a89de7ee91225c248450557
@@ -420,9 +420,9 @@ vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so|f464114205edf5afd8e0
 vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so|0cdbe320f9ab6ee034754cb2ceddede8bc0fec1f
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|128bc67f4822e6715ad64c9648f412cf3e3dc23e
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|7a8567a10b7913957522c9e583069cdc606ac564
-vendor/radio/qcril_database/qcril.db|8041a7184686e687102b86238bf2bff9e095d935
+vendor/radio/qcril_database/qcril.db|57152221f3e51e4caa6305236ca0e1bfb75ebc98
 
-# IMS - from fujisan - OPM1.171019.019
+# IMS - from fujisan - OPM1.171019.026
 # ims.apk - from tissot - OPR1.170623.026
 -app/ims/ims.apk|42881dc3adfd5e4f716bdb4d510ca45a0b415b74
 -app/imssettings/imssettings.apk|dd731e4fc2d77c57f225b35caa04a367a1ae4b06
@@ -434,7 +434,7 @@ lib64/lib-imscamera.so|3e8c00aaf00be5c34296c65ef7fd8c316eda3c3b
 lib64/libimsmedia_jni.so|46c8916bb47694bfefa30fd945baebccacee6ca1
 lib64/lib-imsvideocodec.so|1a7468a4762cdbd9ad9ac642fdf201012b4f8220
 lib64/lib-imsvtextutils.so|4f71ad895e7a76341b5445ab4faa7861a877349f
-lib64/lib-imsvt.so|e06c778bdd9bc69f416381b29edd82cd7b7ee018
+lib64/lib-imsvt.so|d24ee8915f66d87805b2ee576a821ee11ef991bb
 lib64/lib-imsvtutils.so|857bb6659020cc19244c3e6791c005fc5b71843a
 lib64/librcc.so|772073ca428c67865c671a3e7b642beb347d10fa
 lib64/vendor.qti.imsrtpservice@1.0.so|47b03575cf93f607b847d07f6ef6f8e516314260
@@ -453,7 +453,7 @@ vendor/bin/imsqmidaemon|0052efbf4e51bbafec10f33902616723ce38da2a
 vendor/bin/imsrcsd|3d9efa0f67330592cb9d7c0376517fc9f76680dd
 vendor/bin/ims_rtp_daemon|eb935a203040a90542e95c125538b0904ed8cc53
 vendor/framework/qti-vzw-ims-internal.jar|6643f94d22955a78ddfa4bab8990cae60a5b2983
-vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so|f43a2da5c333ed4f169c99883f76539aed828426
+vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so|2bd0e10950fd516dfed2c58ec2dd8dd6776967d0
 vendor/lib64/lib-dplmedia.so|afcc1bd81b491404ed7f1882e012738ef4cc5565
 vendor/lib64/lib-imscmservice.so|a8f86417011c35d15696f04103e5ec0ccc3c121e
 vendor/lib64/lib-imsdpl.so|46bd4f27829db40a84cc235c6ea29aef6b3f30a7
@@ -467,14 +467,14 @@ vendor/lib64/lib-rtpdaemoninterface.so|499d14c0aa291f523d2eeaa03d43ccd39382d3a8
 vendor/lib64/lib-rtpsl.so|0cee3a96079a827de588a731ac8745a6790f6277
 vendor/lib64/lib-siputility.so|2bce33c28993ddb44d0d47eb3c5b4f774cc204d7
 vendor/lib64/lib-uceservice.so|398325e8a575a160bb0ab07ad445cb1a1bb2f986
-vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|745859f00d25911e5a1629eea227c492255e8fc1
-vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|fa73e5142cab1849440ae5652fdf7e00160a1176
+vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|31cd91c71c5e75c03e8d13e8d3a0f60a50036352
+vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|638dcb0895d9526eda562d04cbffeda6e2933abe
 vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so|5a630a12a436a73a0bf057699b2a98df1f7ab86f
 vendor/lib/lib-imscmservice.so|5fcc756abb50398ccf45b79613876caf899b04f3
 vendor/lib/lib-imsrcs-v2.so|76a659966c641b0207ace63abb05715e22463596
 vendor/lib/lib-siputility.so|b8836e31dd1bdf04c401f0d452fb0e6e75cdc8c5
 vendor/lib/lib-uceservice.so|9dc40ac9b5a8e23190087824c8c6d904594f9da8
-vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so|7ddda6e420433f0a16f03d1132fdd107f2613233
+vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so|3373ec7a4f3b81e028a530c882c6ff8c6cf39639
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so|3a46de102fb4b7634a2cfc61d5171eab7833227d
 
 # Sensors - from fujisan - OPM1.171019.026
