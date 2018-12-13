@@ -150,13 +150,15 @@ ro.vendor.build.security_patch=2018-07-01
 ro.vendor.sdk.sensors.gestures=false
 ro.vendor.sensors.amd=false
 ro.vendor.sensors.cmc=false
+ro.vendor.sensors.dev_ori=true
+ro.vendor.sensors.dpc=true
 ro.vendor.sensors.facing=false
 ro.vendor.sensors.pedometer=false
 ro.vendor.sensors.rmd=false
 ro.vendor.sensors.scrn_ortn=false
 ro.vendor.sensors.step_counter=false
 ro.vendor.sensors.step_detector=false
-ro.vendor.sensors.wu=false
+ro.vendor.sensors.wu=true
 
 # TimeService
 persist.timed.enable=true
