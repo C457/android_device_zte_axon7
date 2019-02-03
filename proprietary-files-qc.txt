@@ -489,11 +489,13 @@ vendor/lib/libsensor1.so|e6207418cd916a69702c83c6d42b59a3a250942d
 vendor/lib/libsensor_reg.so|ed79d4231a7e9b0f5b9f2e0fa95ffa1f5e8f627d
 vendor/lib/sensors.ssc.so|4b08f84fd496cbb8df3474e970df33e344166271
 
-# Thermal - from marlin - OPM4.171019.021.P1
-vendor/bin/thermal-engine|60762281388b2b0b0aa88dcaa50f10cdab9ae87d
--vendor/lib64/libthermalclient.so|32f1dd4fd2e257fa530262a71ce903282179896f
-vendor/lib64/libthermalioctl.so|58cdd3389a470a70c383ef52a0dbc52e8331f6ff
--vendor/lib/libthermalclient.so|e99b99eb38edc945f0b711a281ca69d86292642b
+# Thermal - from fujisan - OPM1.171019.026
+vendor/bin/thermal-engine|4558be006248412ac02ebdaee74cc14d2dceba28
+vendor/lib64/hw/thermal.msm8996.so|b31f5346220725ece11b9f3e3a22b88518a9d297
+-vendor/lib64/libthermalclient.so|b0f9b3248ecbff74e12f5d6ad623b974d9001036
+vendor/lib64/libthermalioctl.so|006575fba1af03e4c80a392e267b3bec57750fc3
+vendor/lib/hw/thermal.msm8996.so|f41ca0e29db4d566fbe5b184f93002f17064cb1a
+-vendor/lib/libthermalclient.so|3761f84088568f2b213d8d6e0656f8be506e8bd5
 
 # Time services
 -vendor/app/TimeService/TimeService.apk|5055619766db32fe499cda86b892c9f3081219c5
