@@ -15,7 +15,7 @@
 
 # Sys files
 /sys/devices/soc/75b7000\.i2c/i2c-9/9-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
-/sys/devices/soc/leds-qpnp-25/leds(/.*)?                      u:object_r:sysfs_leds:s0
+/sys/devices/soc/leds-qpnp-[0-9]+/leds(/.*)?                  u:object_r:sysfs_leds:s0
 
 # Binaries
 /(vendor|system/vendor)/bin/gx_fpd          u:object_r:gx_fpd_exec:s0
