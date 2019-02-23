@@ -158,7 +158,7 @@ ro.vendor.sensors.rmd=false
 ro.vendor.sensors.scrn_ortn=false
 ro.vendor.sensors.step_counter=false
 ro.vendor.sensors.step_detector=false
-ro.vendor.sensors.wu=true
+ro.vendor.sensors.wu=false
 
 # TimeService
 persist.timed.enable=true
