@@ -477,17 +477,17 @@ vendor/lib/lib-uceservice.so|9dc40ac9b5a8e23190087824c8c6d904594f9da8
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so|3373ec7a4f3b81e028a530c882c6ff8c6cf39639
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so|3a46de102fb4b7634a2cfc61d5171eab7833227d
 
-# Sensors - from fujisan - OPM1.171019.026
-vendor/bin/sensors.qcom|58c18b630ba82d1086ea2c3be0bfe2e2df3f0fdf
-vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
-vendor/lib64/hw/activity_recognition.msm8996.so|d666b858407f65f6e9304245594a7f68f42d191f
-vendor/lib64/libsensor1.so|503bd3f8622af282f7989ba108484c9fe33399c2
-vendor/lib64/libsensor_reg.so|cc8f7b3fd72bf656c0b0a5f25d2e92e69fee29fd
-vendor/lib64/sensors.ssc.so|749300f42a03f9ade67ff07da529e3d941884f38
-vendor/lib/hw/activity_recognition.msm8996.so|ba9ba9dce7cefa80c9ab3e17276baf049fcd3597
-vendor/lib/libsensor1.so|e6207418cd916a69702c83c6d42b59a3a250942d
-vendor/lib/libsensor_reg.so|ed79d4231a7e9b0f5b9f2e0fa95ffa1f5e8f627d
-vendor/lib/sensors.ssc.so|4b08f84fd496cbb8df3474e970df33e344166271
+# Sensors
+vendor/bin/sensors.qcom
+vendor/etc/sensors/hals.conf
+vendor/lib64/hw/activity_recognition.msm8996.so
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/sensors.ssc.so
+vendor/lib/hw/activity_recognition.msm8996.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/sensors.ssc.so
 
 # Thermal - from fujisan - OPM1.171019.026
 vendor/bin/thermal-engine|4558be006248412ac02ebdaee74cc14d2dceba28
