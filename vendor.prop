@@ -144,7 +144,7 @@ persist.data.wda.enable=true
 persist.rmnet.data.enable=true
 
 # Security patch level
-ro.vendor.build.security_patch=2018-07-01
+ro.vendor.build.security_patch=2019-04-01
 
 # Sensors
 ro.vendor.sdk.sensors.gestures=false
